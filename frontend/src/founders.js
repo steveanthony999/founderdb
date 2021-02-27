@@ -1,0 +1,155 @@
+const founders = [
+  {
+    _id: '1',
+    name: 'Josh Abramson',
+    business: 'CollegeHumor, Vimeo, TeePublic',
+    link: 'https://en.wikipedia.org/wiki/Josh_Abramson',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Josh_abramson.jpg/440px-Josh_abramson.jpg',
+    bio:
+      'Josh Abramson is an American entrepreneur, and co-founder of the comedy website CollegeHumor. He was one of the principal owners and founders of Connected Ventures, whose properties also included Vimeo and BustedTees, and the co-founder, owner, and CEO of the crowdsourced T-shirt design company TeePublic.',
+    twitter: 'https://twitter.com/JoshAbramson',
+    linkedin: 'https://www.linkedin.com/in/joshabramson/',
+  },
+  {
+    _id: '2',
+    name: 'Jack Dorsey',
+    business: 'Twitter, Square Inc.',
+    link: 'https://en.wikipedia.org/wiki/Jack_Dorsey',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Jack_Dorsey_2014_%28cropped%29.jpg/330px-Jack_Dorsey_2014_%28cropped%29.jpg',
+    bio:
+      'Jack Patrick Dorsey is an American technology entrepreneur and philanthropist who is a co-founder and the CEO of Twitter, and the founder and CEO of Square, a financial payments company.',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '3',
+    name: 'Reid Hoffman',
+    business: 'LinkedIn',
+    link: 'https://en.wikipedia.org/wiki/Reid_Hoffman',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Reid_Hoffman_in_SF_2011.jpg/220px-Reid_Hoffman_in_SF_2011.jpg',
+    bio:
+      "Reid Garrett Hoffman is an American internet entrepreneur, venture capitalist and author. Hoffman was the co-founder and executive chairman of LinkedIn, a business-oriented social network used primarily for professional networking. He is currently a partner at the venture capital firm Greylock Partners. On the Forbes 2019 list of the world's billionaires, Hoffman was ranked #1349 with a net worth of US$1.8 billion.",
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '4',
+    name: 'Rony Abovitz',
+    business: 'Magic Leap, MAKO Surgical Corp.',
+    link: 'https://en.wikipedia.org/wiki/Rony_Abovitz',
+    image:
+      'https://i.insider.com/549847ea6bb3f7ee4ea1817b?width=600&format=jpeg&auto=webp',
+    bio:
+      'Rony Abovitz is an American entrepreneur. Abovitz founded MAKO Surgical Corp., a company manufacturing surgical robotic arm assistance platforms, in 2004. MAKO was acquired by Stryker Corporation in 2013 for $1.65B. Abovitz is the founder of the Mixed reality/Augmented Reality (MR/AR) company Magic Leap and served as its CEO from its founding in 2010. In May of 2020, amid financial strife for the company, Abovitz stepped down from his position.',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '5',
+    name: 'Rick Adams',
+    business: 'UUNET',
+    link: 'https://en.wikipedia.org/wiki/Rick_Adams',
+    image: '',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '6',
+    name: 'Jay Adelson',
+    business: 'Digg, Equinix, Revision3',
+    link: 'https://en.wikipedia.org/wiki/Jay_Adelson',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/JayAdelson2011.jpg/200px-JayAdelson2011.jpg',
+    bio: '',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '7',
+    name: 'Trip Adler',
+    business: 'Scribd',
+    link: 'https://en.wikipedia.org/wiki/Trip_Adler',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Trip_Adler.jpg/220px-Trip_Adler.jpg',
+    bio: '',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '8',
+    name: 'Dinesh Agarwal',
+    business: 'IndiaMART',
+    link: 'https://en.wikipedia.org/wiki/Dinesh_Agarwal',
+    image: '',
+    bio: '',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '9',
+    name: 'Ritesh Agarwal',
+    business: 'OYO Rooms',
+    link: 'https://en.wikipedia.org/wiki/Ritesh_Agarwal',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/OYO%2C_owo_Ritesh_Agrawal.jpg/220px-OYO%2C_owo_Ritesh_Agrawal.jpg',
+    bio: '',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '10',
+    name: 'Bhavish Aggarwal',
+    business: 'Ola Cabs',
+    link: 'https://en.wikipedia.org/wiki/Bhavish_Aggarwal',
+    image: '',
+    bio: '',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '11',
+    name: 'Christopher Ahlberg',
+    business: 'Recorded Future',
+    link: 'https://en.wikipedia.org/wiki/Christopher_Ahlberg',
+    image: '',
+    bio: '',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '12',
+    name: 'Luis von Ahn',
+    business: 'Duolingo, reCAPTCHA',
+    link: 'https://en.wikipedia.org/wiki/Luis_von_Ahn',
+    image:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Wikimania_2015_-_Day_2_%2818%29_%28cropped%29.jpg/220px-Wikimania_2015_-_Day_2_%2818%29_%28cropped%29.jpg',
+    bio: '',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '13',
+    name: 'Sujayath Ali',
+    business: 'Voonik',
+    link: 'https://en.wikipedia.org/wiki/Sujayath_Ali',
+    image: '',
+    bio: '',
+    twitter: '',
+    linkedin: '',
+  },
+  {
+    _id: '14',
+    name: 'Jeremy Allaire',
+    business: 'Allaire Corporation, Circle',
+    link: 'https://en.wikipedia.org/wiki/Jeremy_Allaire',
+    image: '',
+    bio: '',
+    twitter: '',
+    linkedin: '',
+  },
+];
+
+export default founders;
