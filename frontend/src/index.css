@@ -20,6 +20,11 @@ footer {
   color: white;
 }
 
+p {
+  line-height: 2rem !important;
+  letter-spacing: 1.4px !important;
+}
+
 #founder-signup-cta {
   height: 160px;
   display: flex;
@@ -58,6 +63,11 @@ footer {
   background: none;
 }
 
+.image-card p {
+  line-height: 1.2rem !important;
+  letter-spacing: 1.2px !important;
+}
+
 .navbar {
   background: linear-gradient(
     90deg,
@@ -81,4 +91,10 @@ footer {
 
 .social-links:hover {
   color: white;
+}
+
+.newscard,
+.newscard .card-img-top,
+.newscard .card-img {
+  border-radius: 0 !important;
 }

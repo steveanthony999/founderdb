@@ -17,7 +17,7 @@ const Navigation = () => {
               className='mr-sm-2'
               style={{ width: '240px' }}
             />
-            <Button variant='outline-danger'>Search</Button>
+            <Button variant='success'>Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
